@@ -7,10 +7,10 @@
 <body>
 <div class="login-page">
     <div class="form">
-        <form:form method="post" commandName="user" action="login-result" class="login-form">
+        <form:form method="post" modelAttribute="user" action="/" class="login-form">
             <form:input path="name" placeholder="Username"/>
             <form:password path="password" placeholder="Password"/>
-            <input type="submit" value="Login">
+            <button>login</button>
         </form:form>
     </div>
 </div>
